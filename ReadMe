@@ -1,0 +1,16 @@
+Nume Prenume: Cruceru Vlad
+Grupa: 325CA
+
+Sursa contine 2 pachete: 1.main si 2.game. 
+
+Pachetul main: contine clasa GameInput care citeste datele de intrare si clasa Main care porneste jocul.
+
+
+Pachetul game contine urmatoarele resurse:
+	enumeratia Asset:  in care s-au retinut bunurile si informatiile 				   specifice lor
+	enumeratia Strategy: in care s-au retinut strategiile
+	clasa abstract Player: structura de jucator standard
+	clasele Basic, Greedy, Bribed: jucatorii specifici celor 3 straegii, sunt derivati ai jucatorului standard( Greedy si Bribed au totusi strategii derivate din Basic)
+	clasa Bag: structura sacului in care sunt aduse bunurile
+	clasa TimeToPlayTheGame: implementarea jocului in sine
+
